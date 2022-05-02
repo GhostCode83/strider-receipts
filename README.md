@@ -2,9 +2,9 @@
 
 This project renders detailed information about purchases made at the Strider General Store.
 
-![Screenshot of home screen](/src/assets/images/strider-home-screen.png)
+![Screenshot of home screen](/client/src/assets/images/strider-home-screen.png)
 
-![Screenshot of receipt screen](/src/assets/images/strider-receipt-screen.png)
+![Screenshot of receipt screen](/client/src/assets/images/strider-receipt-screen.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -35,6 +35,7 @@ It runs just the app server on [http://localhost:8000](http://localhost:8000)
 Navigate to the client folder in a new terminal.  
 Run the command npm start.
 It runs just the app client on [http://localhost:3000](http://localhost:3000)
+If you would like to run tests instead, see 2.b. below.
 
 #### `2.b. Test the client`
 
