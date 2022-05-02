@@ -1,46 +1,27 @@
 {
-  "name": "strider-receipts",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@formspree/react": "^2.2.4",
-    "@mui/icons-material": "^5.6.2",
-    "@mui/material": "^5.6.3",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^13.5.0",
-    "dayjs": "^1.11.1",
-    "history": "^5.3.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-router-dom": "~6.1.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "strider-receipts-server",
+  "version": "1.0.0",
+  "description": "This project renders detailed information about purchases made at the Strider General Store.",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js --ignore client/",
+    "dev": "nodemon server.js --ignore client/"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhostCode83/strider-receipts.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GhostCode83/strider-receipts/issues"
+  },
+  "homepage": "https://github.com/GhostCode83/strider-receipts#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0"
   }
 }
